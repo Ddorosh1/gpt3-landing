@@ -118,6 +118,7 @@
     .gpt3__header h1 {
         font-size: 48px;
         line-height: 60px;
+        letter-spacing: -0.1rem;
     }
 
     .gpt3__header p {
@@ -140,10 +141,11 @@
     }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 420px) {
     .gpt3__header h1 {
         font-size: 36px;
         line-height: 48px;
+        letter-spacing: -0.1rem;;
     }
 
     .gpt3__header p {
@@ -155,5 +157,10 @@
     .gpt3__header-content__input button {
         font-size: 12px;
         line-height: 16px;
+    }
+
+    .gpt3__header-content__poeple p {
+        margin: 0.5rem;
+        font-size: 28px;
     }
 }
